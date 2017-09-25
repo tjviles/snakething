@@ -1,0 +1,25 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "A snake game",
+  "main": "game.js",
+  "scripts": {
+    "babel": "babel --presets es2015 src/game.js -o build/snakegame.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CIS580F17/snake.git"
+  },
+  "author": "Nathan H. Bean",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/CIS580F17/snake/issues"
+  },
+  "homepage": "https://github.com/CIS580F17/snake#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "webpack": "^3.6.0"
+  }
+}
