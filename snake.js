@@ -94,7 +94,7 @@ Snake.prototype.render = function() {
 }
 
 /** @method update
-  * moves the snake
+  * Updates the snake, moving it forward
   */
 Snake.prototype.update = function() {
   var x = this.snake[0].x;
@@ -121,7 +121,6 @@ Snake.prototype.update = function() {
 }
 
 Snake.prototype.loop = function() {
-
   this.update();
   this.render();
 }
